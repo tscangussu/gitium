@@ -15,6 +15,8 @@
     Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
+if ( ! defined( 'GITIGNORE' ) ) {
+
 define('GITIGNORE', <<<EOF
 *.log
 *.swp
@@ -86,7 +88,7 @@ wp-includes/
 /xmlrpc.php
 EOF
 );
-
+}
 
 class Git_Wrapper {
 
